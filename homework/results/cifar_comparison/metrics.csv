@@ -1,0 +1,4 @@
+model,test_accuracy,parameters,seconds,train_accuracy,training_seconds
+DeepFC,0.391,1746506,19.11,0.4948,11.71
+ResidualCNN,0.441,38538,108.34,0.466,76.76
+ResidualDropout,0.382,38538,70.56,0.4052,52.42

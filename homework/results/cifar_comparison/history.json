@@ -1,0 +1,290 @@
+{
+  "DeepFC": {
+    "loss": [
+      2.06565365524292,
+      1.8475538635253905,
+      1.7697217399597167,
+      1.683063252067566,
+      1.6210466939926147,
+      1.5373169204711914
+    ],
+    "train_acc": [
+      0.348,
+      0.3932,
+      0.4034,
+      0.449,
+      0.4876,
+      0.4948
+    ],
+    "test_acc": [
+      0.316,
+      0.336,
+      0.378,
+      0.368,
+      0.394,
+      0.391
+    ],
+    "seconds": 19.110787699995853,
+    "gradients": {
+      "net.1.weight": 1.5416358709335327,
+      "net.1.bias": 0.05802793800830841,
+      "net.4.weight": 3.189537763595581,
+      "net.4.bias": 0.045017290860414505,
+      "net.7.weight": 2.872901201248169,
+      "net.7.bias": 0.07330167293548584,
+      "net.10.weight": 2.7485432624816895,
+      "net.10.bias": 0.12880448997020721,
+      "net.13.weight": 3.0006961822509766,
+      "net.13.bias": 0.2640274465084076
+    },
+    "train_seconds": 11.707628899996052,
+    "gradient_epochs": [
+      {
+        "net.1.weight": 0.2068079234678534,
+        "net.4.weight": 0.5341397972801064,
+        "net.7.weight": 0.7649631131016001,
+        "net.10.weight": 0.9111646730688554,
+        "net.13.weight": 0.958596446940416
+      },
+      {
+        "net.1.weight": 0.2802674149787879,
+        "net.4.weight": 0.716583611089972,
+        "net.7.weight": 0.907497214365609,
+        "net.10.weight": 1.014498553698576,
+        "net.13.weight": 1.159044099759452
+      },
+      {
+        "net.1.weight": 0.325843733134149,
+        "net.4.weight": 0.8035653927658177,
+        "net.7.weight": 0.9386900278586375,
+        "net.10.weight": 1.0125656739065918,
+        "net.13.weight": 1.2319709122935427
+      },
+      {
+        "net.1.weight": 0.3595278700695762,
+        "net.4.weight": 0.8458150413971913,
+        "net.7.weight": 0.9030656263798098,
+        "net.10.weight": 0.9456473090980626,
+        "net.13.weight": 1.2037796642206893
+      },
+      {
+        "net.1.weight": 0.38915277432791795,
+        "net.4.weight": 0.8921412878398653,
+        "net.7.weight": 0.9274315079556236,
+        "net.10.weight": 0.9407312779486934,
+        "net.13.weight": 1.312545424020743
+      },
+      {
+        "net.1.weight": 0.42289186353924907,
+        "net.4.weight": 0.945849740052525,
+        "net.7.weight": 0.9097649968123134,
+        "net.10.weight": 0.9146076486080508,
+        "net.13.weight": 1.30586584685724
+      }
+    ]
+  },
+  "ResidualCNN": {
+    "loss": [
+      2.0115693334579468,
+      1.777914989089966,
+      1.648250134086609,
+      1.5788168941497802,
+      1.5013287006378173,
+      1.460783002281189
+    ],
+    "train_acc": [
+      0.294,
+      0.3872,
+      0.3614,
+      0.362,
+      0.3974,
+      0.466
+    ],
+    "test_acc": [
+      0.302,
+      0.36,
+      0.351,
+      0.337,
+      0.395,
+      0.441
+    ],
+    "seconds": 108.3390189999991,
+    "gradients": {
+      "features.0.weight": 4.2290873527526855,
+      "features.0.bias": 6.558038876391947e-06,
+      "features.1.weight": 0.16749219596385956,
+      "features.1.bias": 0.18161840736865997,
+      "features.3.net.0.weight": 2.0747299194335938,
+      "features.3.net.0.bias": 6.082017875996826e-07,
+      "features.3.net.1.weight": 0.16616179049015045,
+      "features.3.net.1.bias": 0.16390860080718994,
+      "features.3.net.4.weight": 1.2690157890319824,
+      "features.3.net.4.bias": 3.659053788851452e-07,
+      "features.3.net.5.weight": 0.11524125188589096,
+      "features.3.net.5.bias": 0.12406651675701141,
+      "features.4.net.0.weight": 0.8829934597015381,
+      "features.4.net.0.bias": 1.1620787887522965e-07,
+      "features.4.net.1.weight": 0.09452261030673981,
+      "features.4.net.1.bias": 0.06567524373531342,
+      "features.4.net.4.weight": 0.6236172318458557,
+      "features.4.net.4.bias": 1.763777817131995e-07,
+      "features.4.net.5.weight": 0.09269468486309052,
+      "features.4.net.5.bias": 0.12355901300907135,
+      "head.weight": 1.7549729347229004,
+      "head.bias": 0.2460191547870636
+    },
+    "train_seconds": 76.76383409999835,
+    "gradient_epochs": [
+      {
+        "features.0.weight": 0.7080226368919204,
+        "features.3.net.0.weight": 0.582913689221008,
+        "features.3.net.4.weight": 0.4821379814721361,
+        "features.4.net.0.weight": 0.32813977402976796,
+        "features.4.net.4.weight": 0.3566140100548539,
+        "head.weight": 0.8698373297347298
+      },
+      {
+        "features.0.weight": 1.4994877644732028,
+        "features.3.net.0.weight": 0.7747507223600074,
+        "features.3.net.4.weight": 0.46544055169141746,
+        "features.4.net.0.weight": 0.2980122528498686,
+        "features.4.net.4.weight": 0.25531622277030463,
+        "head.weight": 0.8403073526635955
+      },
+      {
+        "features.0.weight": 2.2979260102103027,
+        "features.3.net.0.weight": 0.9536881212946735,
+        "features.3.net.4.weight": 0.5383478342732296,
+        "features.4.net.0.weight": 0.3427273168971267,
+        "features.4.net.4.weight": 0.2605390399694443,
+        "head.weight": 0.8480228513856477
+      },
+      {
+        "features.0.weight": 2.8097836216793786,
+        "features.3.net.0.weight": 1.030422178250325,
+        "features.3.net.4.weight": 0.5509707848482495,
+        "features.4.net.0.weight": 0.3568239804310135,
+        "features.4.net.4.weight": 0.26181078390984597,
+        "head.weight": 0.8280796755718279
+      },
+      {
+        "features.0.weight": 3.3290775712532334,
+        "features.3.net.0.weight": 1.1409664169142517,
+        "features.3.net.4.weight": 0.6108665077746669,
+        "features.4.net.0.weight": 0.3993232989613014,
+        "features.4.net.4.weight": 0.27513796619222136,
+        "head.weight": 0.840647245509715
+      },
+      {
+        "features.0.weight": 3.395136154150661,
+        "features.3.net.0.weight": 1.0692061978050424,
+        "features.3.net.4.weight": 0.578792423387117,
+        "features.4.net.0.weight": 0.3871092935906181,
+        "features.4.net.4.weight": 0.27601107294800914,
+        "head.weight": 0.8432944047300122
+      }
+    ]
+  },
+  "ResidualDropout": {
+    "loss": [
+      2.07369255027771,
+      1.8845315320968627,
+      1.7969343097686767,
+      1.748156483078003,
+      1.7100614192962647,
+      1.681423334503174
+    ],
+    "train_acc": [
+      0.2912,
+      0.3584,
+      0.3492,
+      0.376,
+      0.3698,
+      0.4052
+    ],
+    "test_acc": [
+      0.3,
+      0.344,
+      0.338,
+      0.375,
+      0.366,
+      0.382
+    ],
+    "seconds": 70.55533129999822,
+    "gradients": {
+      "features.0.weight": 6.8555707931518555,
+      "features.0.bias": 3.7186632653174456e-06,
+      "features.1.weight": 0.18498556315898895,
+      "features.1.bias": 0.1985844075679779,
+      "features.3.net.0.weight": 1.6209650039672852,
+      "features.3.net.0.bias": 2.485768959559209e-07,
+      "features.3.net.1.weight": 0.11216829717159271,
+      "features.3.net.1.bias": 0.1587933748960495,
+      "features.3.net.4.weight": 1.249679684638977,
+      "features.3.net.4.bias": 3.608843144320417e-07,
+      "features.3.net.5.weight": 0.12846198678016663,
+      "features.3.net.5.bias": 0.14740878343582153,
+      "features.4.net.0.weight": 0.9812999367713928,
+      "features.4.net.0.bias": 1.1775251351764382e-07,
+      "features.4.net.1.weight": 0.0917135700583458,
+      "features.4.net.1.bias": 0.0887230932712555,
+      "features.4.net.4.weight": 0.8091228604316711,
+      "features.4.net.4.bias": 1.4271515169639315e-07,
+      "features.4.net.5.weight": 0.08301559090614319,
+      "features.4.net.5.bias": 0.11776933819055557,
+      "head.weight": 1.8243210315704346,
+      "head.bias": 0.24811019003391266
+    },
+    "train_seconds": 52.41606149999279,
+    "gradient_epochs": [
+      {
+        "features.0.weight": 0.5369701700497277,
+        "features.3.net.0.weight": 0.45724853345110444,
+        "features.3.net.4.weight": 0.5339185018328172,
+        "features.4.net.0.weight": 0.37162318731410593,
+        "features.4.net.4.weight": 0.46769967411137836,
+        "head.weight": 0.8738379916058311
+      },
+      {
+        "features.0.weight": 1.1193450791171835,
+        "features.3.net.0.weight": 0.4794941178605526,
+        "features.3.net.4.weight": 0.4249358067784128,
+        "features.4.net.0.weight": 0.2642089002117326,
+        "features.4.net.4.weight": 0.30390693586838397,
+        "head.weight": 0.8440936162501951
+      },
+      {
+        "features.0.weight": 1.5317869103407558,
+        "features.3.net.0.weight": 0.47694766596902777,
+        "features.3.net.4.weight": 0.4094532698015623,
+        "features.4.net.0.weight": 0.271907034554059,
+        "features.4.net.4.weight": 0.28120597725427604,
+        "head.weight": 0.8562428275995617
+      },
+      {
+        "features.0.weight": 1.88547404959232,
+        "features.3.net.0.weight": 0.5130891015258017,
+        "features.3.net.4.weight": 0.41392744756952116,
+        "features.4.net.0.weight": 0.2805528154101553,
+        "features.4.net.4.weight": 0.2724228989851626,
+        "head.weight": 0.8421247895759872
+      },
+      {
+        "features.0.weight": 2.3498632010025315,
+        "features.3.net.0.weight": 0.5585798598542998,
+        "features.3.net.4.weight": 0.43301321698140494,
+        "features.4.net.0.weight": 0.3023922073690197,
+        "features.4.net.4.weight": 0.2638529259947282,
+        "head.weight": 0.8489866656593129
+      },
+      {
+        "features.0.weight": 2.69490222387676,
+        "features.3.net.0.weight": 0.5642401372330098,
+        "features.3.net.4.weight": 0.42350385347499125,
+        "features.4.net.0.weight": 0.30116371112533763,
+        "features.4.net.4.weight": 0.26394718187519267,
+        "head.weight": 0.8620936316025408
+      }
+    ]
+  }
+}
